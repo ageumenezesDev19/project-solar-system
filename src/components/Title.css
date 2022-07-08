@@ -1,0 +1,29 @@
+h2 {
+  background: rgba(0, 0, 0, 0.278);
+  border: 2px solid rgba(255, 255, 255, 0.772);
+  border-radius: 20px;
+  color: white;
+  font-family: Epilogue , sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 75px;
+  margin: 55px;
+  margin-left: 85px;
+  margin-right: 85px;
+  text-align: center;
+}
+
+@media only screen and ( max-width : 425px ) {
+
+  h2 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and ( max-width : 320px ) {
+
+  h2 {
+    font-size: 23px;
+  }
+}

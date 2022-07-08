@@ -1,0 +1,27 @@
+p {
+  color: white;
+  font-family: Epilogue , sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+  text-align: left;
+}
+
+.planets-cards-container {
+  display: flex;
+  flex-direction: column;
+  transition-duration: 0.5s;
+  transition-property: transform;
+}
+
+.planets-cards-container:hover {
+  transform: scale(1.2);
+}
+
+@media only screen and ( max-width : 320px ) {
+
+  .planets-cards-container {
+    transform: scale(0.75);
+  }
+}
